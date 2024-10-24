@@ -1,0 +1,26 @@
+{
+  "name": "ssh-docker-example",
+  "version": "1.0.0",
+  "description": "Just a simple web socket web service",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/app.js",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victor-Palha/ssh-docker-example.git"
+  },
+  "author": "Ash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Victor-Palha/ssh-docker-example/issues"
+  },
+  "homepage": "https://github.com/Victor-Palha/ssh-docker-example#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "socket.io": "^4.8.0"
+  }
+}
